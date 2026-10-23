@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: veribrand
+    runtime: python
+    plan: starter
+    disk:
+      name: veribrand-data
+      mountPath: /data
+      sizeGB: 1
+    buildCommand: pip install -r requirements.txt
+    startCommand: python run.py
+    healthCheckPath: /api/health
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: APP_ENV
+        value: production
+      - key: DEMO_MODE            # safe default; enable only in an isolated judging demo
+        value: "0"
+      - key: EXPOSE_DEV_OTP       # never expose OTPs/reset tokens on a public deployment
+        value: "0"
+      - key: DATA_DIR
+        value: /data
+      # Render Starter + persistent disk are billable. Configure secrets in the dashboard.
+      # Required secrets: SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASSWORD, SMTP_FROM, ADMIN_EMAIL.
+      # Optional: OPENAI_API_KEY (turns on the grounded AI pass), REVIEWER_INVITE, ADMIN_INVITE.

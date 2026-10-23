@@ -1,0 +1,231 @@
+[
+ {
+  "draft": "Lumio is India's #1 budgeting app. Plans start at Rs 499. Sign up now!!",
+  "expected": [
+   {
+    "text": "india's #1",
+    "label": "unsupported"
+   },
+   {
+    "text": "rs 499",
+    "label": "contradicted"
+   },
+   {
+    "text": "!!",
+    "label": "rule"
+   }
+  ]
+ },
+ {
+  "draft": "Plans start at Rs 399. Try Lumio today.",
+  "expected": []
+ },
+ {
+  "draft": "The Starter plan is just ₹399 a month.",
+  "expected": []
+ },
+ {
+  "draft": "Starter plan: Rs 349 a month.",
+  "expected": [
+   {
+    "text": "rs 349",
+    "label": "contradicted"
+   }
+  ]
+ },
+ {
+  "draft": "Premium plan costs Rs 999 per month.",
+  "expected": [
+   {
+    "text": "rs 999",
+    "label": "stale"
+   }
+  ]
+ },
+ {
+  "draft": "Annual plan is Rs 3,999 per year.",
+  "expected": []
+ },
+ {
+  "draft": "Annual plan is Rs 2,999 per year.",
+  "expected": [
+   {
+    "text": "rs 2,999",
+    "label": "contradicted"
+   }
+  ]
+ },
+ {
+  "draft": "Over 2 lakh users trust Lumio.",
+  "expected": []
+ },
+ {
+  "draft": "Join 10 lakh users today.",
+  "expected": [
+   {
+    "text": "10 lakh users",
+    "label": "contradicted"
+   }
+  ]
+ },
+ {
+  "draft": "Lumio is the best budgeting app, guaranteed to save you money.",
+  "expected": [
+   {
+    "text": "best",
+    "label": "unsupported"
+   },
+   {
+    "text": "guaranteed",
+    "label": "unsupported"
+   }
+  ]
+ },
+ {
+  "draft": "Save 40% on your first year.",
+  "expected": [
+   {
+    "text": "40%",
+    "label": "unsupported"
+   }
+  ]
+ },
+ {
+  "draft": "Set up your budget in 5 minutes.",
+  "expected": [
+   {
+    "text": "in 5 minutes",
+    "label": "unsupported"
+   }
+  ]
+ },
+ {
+  "draft": "Our Lumio money app is cheap and dope, bro.",
+  "expected": [
+   {
+    "text": "lumio money app",
+    "label": "rule"
+   },
+   {
+    "text": "cheap",
+    "label": "rule"
+   },
+   {
+    "text": "dope",
+    "label": "rule"
+   },
+   {
+    "text": "bro",
+    "label": "rule"
+   }
+  ]
+ },
+ {
+  "draft": "THIS IS A MIRACLE DEAL FOR YOU.",
+  "expected": [
+   {
+    "text": "miracle deal for you",
+    "label": "rule"
+   },
+   {
+    "text": "miracle",
+    "label": "rule"
+   }
+  ]
+ },
+ {
+  "draft": "Risk-free and 100% secure, with zero fees.",
+  "expected": [
+   {
+    "text": "risk-free",
+    "label": "unsupported"
+   },
+   {
+    "text": "100%",
+    "label": "unsupported"
+   },
+   {
+    "text": "zero fees",
+    "label": "unsupported"
+   }
+  ]
+ },
+ {
+  "draft": "Lumio helps you track spending and plan savings.",
+  "expected": []
+ },
+ {
+  "draft": "Plan your month with Lumio. Start today.",
+  "expected": []
+ },
+ {
+  "draft": "Bank-grade 256-bit encryption protects your data.",
+  "expected": []
+ },
+ {
+  "draft": "Rs 399 for Starter and Rs 999 for Premium.",
+  "expected": [
+   {
+    "text": "rs 999",
+    "label": "stale"
+   }
+  ]
+ },
+ {
+  "draft": "Lumio is India's number one app! Rs 399 only.",
+  "expected": [
+   {
+    "text": "india's number one",
+    "label": "unsupported"
+   },
+   {
+    "text": "only",
+    "label": "unsupported"
+   }
+  ]
+ },
+ {
+  "draft": "Plans start from ₹299!",
+  "expected": [
+   {
+    "text": "₹299",
+    "label": "contradicted"
+   }
+  ]
+ },
+ {
+  "draft": "50,000 customers love us.",
+  "expected": [
+   {
+    "text": "50,000 customers",
+    "label": "unsupported"
+   }
+  ]
+ },
+ {
+  "draft": "Yolo! Sign up fam!!",
+  "expected": [
+   {
+    "text": "yolo",
+    "label": "rule"
+   },
+   {
+    "text": "fam",
+    "label": "rule"
+   },
+   {
+    "text": "!!",
+    "label": "rule"
+   }
+  ]
+ },
+ {
+  "draft": "Track every rupee. Our Lumio finance app makes it simple.",
+  "expected": [
+   {
+    "text": "lumio finance app",
+    "label": "rule"
+   }
+  ]
+ }
+]

@@ -1,0 +1,47 @@
+[
+ {
+  "draft": "Nobody beats Lumio on price.",
+  "expected": [
+   {
+    "text": "nobody beats",
+    "label": "unsupported"
+   }
+  ]
+ },
+ {
+  "draft": "Plans start at four hundred rupees.",
+  "expected": [
+   {
+    "text": "four hundred rupees",
+    "label": "contradicted"
+   }
+  ]
+ },
+ {
+  "draft": "Everyone is switching to Lumio.",
+  "expected": [
+   {
+    "text": "everyone is switching",
+    "label": "unsupported"
+   }
+  ]
+ },
+ {
+  "draft": "Lumio is lit, no cap.",
+  "expected": [
+   {
+    "text": "lit",
+    "label": "rule"
+   }
+  ]
+ },
+ {
+  "draft": "We are trusted by millions.",
+  "expected": [
+   {
+    "text": "millions",
+    "label": "unsupported"
+   }
+  ]
+ }
+]
